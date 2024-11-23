@@ -1,0 +1,94 @@
+.signup{
+    width:100%;
+    height:650px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding: 90px 0 90px 0;
+    background-color: rgb(162, 170, 170);
+}
+.sub-main{
+    height:650px;
+    width:450px;
+    justify-content: center;
+    display: flex;
+    box-shadow: 11px 12px 13px 12px rgb(207,207,207);
+    padding-top: 30px;
+    border-radius: 60px;
+    background-color: white;
+}
+.img{
+    padding-top: 20px;
+    justify-content: center;
+    display: flex;
+}
+.container-img{
+    align-items: center;
+    display: flex;
+}
+.profile{
+    width:80px;
+    height:80px;
+}
+.fir-input input{
+    width: 300px;
+    height: 50px;
+    border-radius: 60px;
+    box-shadow: inset 0px 0px 25px 0px #888;
+    border: none;
+    outline: none;
+    background-color: white;
+}
+.sec-input input{
+    width: 300px;
+    height: 50px;
+    border-radius: 60px;
+    box-shadow: inset 0px 0px 25px 0px #888;
+    border: none;
+    outline: none;
+    background-color: white;
+}
+.third-input input{
+    width: 300px;
+    height: 50px;
+    border-radius: 60px;
+    box-shadow: inset 0px 0px 25px 0px #888;
+    border: none;
+    outline: none;
+    background-color: white;
+}
+.fourth-input input {
+    width: 300px;
+    height: 50px;
+    border-radius: 60px;
+    box-shadow: inset 0px 0px 25px 0px #888;
+    border: none;
+    outline: none;
+    background-color: white;
+}
+.name{
+    padding-left: 70px;
+    font-size: 15px;
+}
+.third-input{
+    padding-top: 20px;
+}
+.fourth-input{
+    padding-top: 20px;
+}
+.sec-input{
+    padding-top: 20px;
+}
+.btn1 {
+    padding-top:50px;
+    padding-right: -200px;
+}
+.btn1 button{
+    width: 300px;
+    height: 50px;
+    border-radius: 60px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border: none;
+}

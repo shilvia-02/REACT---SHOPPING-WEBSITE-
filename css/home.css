@@ -1,0 +1,207 @@
+.home{
+    width:1300px;
+    height:1750px;
+    text-align: center;
+    justify-content: center;
+    display: grid;
+    background-color: white;
+}
+/*.logo{
+    flex-basis:20%;
+    margin-top: -54px;
+    }
+    .logo img{
+    width:100px;
+    height: 100px;
+   margin-left: -1200px;
+  
+    }*/
+.App nav{
+    width: 100%;
+    height: 75%;
+    background-color: beige;
+}
+.App{
+    flex:2;
+    text-align:center;
+    }
+    .App ul li{
+    display:inline-block;
+    margin:0 20px;
+    }
+    .App ul li a{
+    color:black;
+    text-decoration:none;
+    }
+    .App ul li::after{
+    content:'';
+    height:3px;
+    width:0;
+    background:white;
+    left:0;
+    bottom:-10px;
+    transition:0.5s;
+    }
+    .App ul li:hover::after{
+    width:100%;
+    }
+    .home-container{
+        width: 100%;
+        height: 400px;
+        background-color: black;
+        margin-top: -415px;
+    }
+    .home-box {
+        width: 100%;
+        height: 400px;
+        background-color: black;
+        margin-top: -400px;
+       display: flex;
+    }
+    .home-box img {
+        width: 300px; /* Set a fixed width for images */
+        height: 300px; /* Keep aspect ratio */
+        flex-shrink: 0;
+        margin-right: 750px;
+    }
+    .image-container{
+        display: flex;
+        width: 100%;
+    }
+    .product-info{
+        color: white;
+        margin-top: -200px;
+        margin-left: 400px;
+    }
+    .slider {
+        display: flex;
+        overflow-x: scroll; /* Enable horizontal scroll */
+        scroll-snap-type: x mandatory; /* Snap effect for smooth transitions */
+        scroll-behavior: smooth; /* Smooth sliding between views */
+        box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+        border-radius: 0.5rem;
+        -webkit-overflow-scrolling: touch; /* Smooth touch scroll for mobile */
+    }
+    .slider .slide {
+        flex: 0 0 100%; /* Each slide takes up the full width of the viewport */
+        scroll-snap-align: start;
+        display: flex;
+        flex-direction: column; /* Stack image and product info vertically */
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .slider-nav {
+        display: flex;
+       margin-top: 350px;
+       align-items: center;
+       justify-content: center;
+       position: absolute;
+       left: 50%;
+       transform: translateX(-50%);
+    }
+
+    .slider-nav a {
+        width: 0.75rem;
+        height: 0.75rem;
+        border-radius: 50%;
+        background-color: #fff;
+        margin: 0 0.5rem;
+        opacity: 0.75;
+        transition: opacity ease 250ms;
+        
+    }
+
+    .slider-nav a:hover {
+        opacity: 1;
+        background-color: white;
+    }
+    .content img{
+        width:543px;
+        margin-bottom:-100px;
+        margin-left: 800px;
+    }
+    .content p{
+        color:#fff;
+        font-size: 120%;
+        margin-right: 600px;
+        margin-top: 150px;
+        }
+    .content h1{
+        color: #fff;
+        font-size: 300%;
+        margin-right: 600px;
+        margin-top: -200px;
+    }
+        .btn-1 button{
+            margin-right: 500px;
+            width: 150px;
+            height: 40px;
+            border-radius: 60px;
+            background-color: white;
+            color: black;
+            font-size: 15px;
+            border: none;
+            }
+            .btn-1 button:hover{
+                color: white;
+                background-color: black;
+                transition: 0.6s;
+            }
+           .product-info .buy-button{
+            width: 150px;
+            height: 40px;
+            border-radius: 60px;
+            background-color: white;
+            color: black;
+            font-size: 15px;
+            border: none;
+           }
+           .product-info .buy-button:hover{
+            color: white;
+            background-color: black;
+            transition: 0.6s;
+           }
+            .home-text{
+                width: 100%;
+                height: 400px;
+                background-color: black;
+                margin-top: -400px;
+               display: flex;
+            }
+            .home-text .email-button{
+             margin-left: 50px;
+               margin-top: 200px;
+               width: 150px;
+               height: 50px;
+               border-radius: 60px;
+               background-color: white;
+               color: black;
+               font-size: 15px;
+               border: none;
+            }
+            .home-text .email-button:hover{
+                color: white;
+                background-color: black;
+                transition: 0.6s;
+            }
+            .home-text h1{
+                color: #fff;
+                margin-left: 1500px;
+            }
+            .home-text h2{
+                color: #fff;
+                margin-left: -460px;
+                margin-top: 100px;
+            }
+            .home-text input{
+                margin-top: 200px;
+                margin-left: -460px;
+                width: 300px;
+                height: 50px;
+                border-radius: 60px;
+                box-shadow: inset 0px 0px 25px 0px #888;
+                border: none;
+                outline: none;
+                background-color: white;
+            }

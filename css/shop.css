@@ -1,0 +1,63 @@
+.shop, .shop1 {
+    width: 100%;
+    height: auto; /* Change from fixed height to auto */
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap onto the next line */
+    background-color: black;
+}
+
+.box, .box-1 {
+    display: flex;
+    flex-wrap: wrap; /* Allow boxes to wrap */
+    justify-content: center; /* Center items */
+}
+
+.box1, .box2 {
+    width: 325px;
+    height: 475px;
+    color: white;
+    margin: 10px; /* Adjust margins to be uniform */
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.box1 img, .box2 img {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Keep aspect ratio */
+    max-height: 300px; /* Limit max height */
+    padding: 10px;
+}
+
+.box1 p, .box2 p {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+input {
+    border: 1px solid black;
+    height: 25px;
+    width: 40px;
+    background: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+button {
+    height: 25px;
+    border: 1px solid black;
+    width: 100px;
+    background: white;
+    margin-left: 10px; /* Adjusted for better alignment */
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#show {
+    color: red;
+    font-weight: 500;
+}
